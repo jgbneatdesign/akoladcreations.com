@@ -1,46 +1,64 @@
-<section id="contact" class="content-section">
+<section id="contact" class="ptb_100">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2">
-				<h2 class="text-center title">
-					Contact us
-					<hr>
-					<small>Haiti</small><br>
-					<small><small>
-						Josie Antoine, Director & President <br>
-						<a class="light" href="mailto:jantoine@loveandhopehaiti.org">
-							<i class="fa fa-envelope"></i> jantoine@loveandhopehaiti.org
-						</a> <br>
-
-						<!-- <a href="tel:+50937349392">
-							<i class="fa fa-phone"></i> (509) 3647 8199
-						</a> -->
-					</small>
-					</small>
-					<hr>
-					<small>United States</small><br>
-					<small><small>
-						Lovely Paulemon, Vice-President <br>
-						<a class="light" href="mailto:LPaulemon@loveandhopehaiti.org">
-							<i class="fa fa-envelope"></i> LPaulemon@loveandhopehaiti.org
-						</a> <br>
-
-						<!-- <a href="tel:+50937349392">
-							<i class="fa fa-phone"></i> (509) 3647 8199
-						</a> -->
-					</small></small><br>
-					<small><small>
-						Phara Vincent <br>
-						<a class="light" href="mailto:pvincent@loveandhopehaiti.org">
-							<i class="fa fa-envelope"></i> pvincent@loveandhopehaiti.org
-						</a> <br>
-
-						<!-- <a href="tel:+50937349392">
-							<i class="fa fa-phone"></i> (509) 3647 8199
-						</a> -->
-					</small></small>
-				</h2>
+			<div class="col-md-6 mb_50 col-md-offset-3 text-center">
+				<div class="heading-part ">
+					<h2 class="main_title mb_20">Contact us and get a quote</h2>
+					<p>Leave us a message and we'll reply as soon as we can.</p>
+				</div>
 			</div>
 		</div>
+		<!-- contact  -->
+		<div class="row">
+			<div class="col-md-4 col-xs-12 contact">
+				<div class="location mb_50">
+					<h5 class="capitalize mb_30">Notre adresse</h5>
+					<div class="address">Adresse de bureau
+						<br> #2, Imp Mentor, rue Colette,
+						<br> Rte de Frères, Pétion-Ville</div>
+					<div class="call mt_20">
+						<i class="fa fa-phone" aria-hidden="true"></i>+(509)4353-1232</div>
+				</div>
+				<div class="Career mb_50">
+
+					<div class="email mt_20">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<a href="mailto:akoladcreations@gmail.com" target="_top">akoladcreations@gmail.com</a>
+					</div>
+				</div>
+				<div class="Hello mb_50">
+					<div class="email mt_20">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<a href="mailto:info@akoladcreations.com" target="_top">info@akoladcreations.com</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-xs-12 contact-form mb_50">
+				<!-- Contact FORM -->
+				<div id="contact_form">
+					<form id="contact_body" method="post" action="contact_me.php">
+						<input class="full-with-form " type="text" name="name" placeholder="Full Name" data-required="true" />
+						<input class="full-with-form  mt_30" type="email" name="email" placeholder="Your E-mail" data-required="true" />
+						<input class="full-with-form  mt_30" type="text" name="phone1" placeholder="Your Phone Number" maxlength="15" data-required="true"
+						/>
+						<input class="full-with-form  mt_30" type="text" name="subject" placeholder="The Subject" data-required="true">
+						<!-- <input class="full-with-form  mt_30" type="file" name="file_attach[]" /> -->
+						<textarea class="full-with-form  mt_30" name="message" placeholder="Your Message" data-required="true"></textarea>
+						<button class="custom-btn custom-btns mt_60" type="submit" tar>
+							<span>Send Message</span>
+						</button>
+					</form>
+					<div id="contact_results"></div>
+				</div>
+
+				<!-- END Contact FORM -->
+			</div>
+		</div>
+		<!-- map  -->
+		<!-- <div class="row">
+			<div class="col-xs-12 map">
+				<div id="map"></div>
+			</div>
+		</div> -->
 	</div>
 </section>
