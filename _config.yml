@@ -1,11 +1,12 @@
 name: Akolad Creations
 email: jgbneatdesign@gmail.com
-# description: "Akolad Creations is a Communication Agency, we do more than creating websites and Facebook pages, or buying advertising space. We bring your brand, product or service to the customer. We work in branding, digital marketing, Web Design (UX/UI), photography, art direction and printing to make your company successful."
 description: "Akolad Creations is a creative communication agency. Our passionate team develops tailor-made services to provide efficient and simple solutions that perfectly meet your requirements! Boost your image and increase your revenue!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.akoladcreations.com"
-twitter: forumtelecomhaiti
-github:  "jgbneatdesign"
+twitter: "akoladcreations"
+facebook: "akoladcreations"
+instagram: "akolad_creations"
+# github:  "jgbneatdesign"
 
 # Build settings
 markdown: kramdown

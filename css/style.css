@@ -108,7 +108,7 @@ ul {
 	color: #fff !important;
 }
 .red{
-  color: #e64e04 !important;
+  color: #F5911F !important;
 }
 .dark {
 	color: #000 !important;
@@ -137,7 +137,7 @@ ul {
   text-transform: capitalize;
 }
 #colors-switcher h2 a {
-  background-color: #E64E04;
+  background-color: #F5911F;
   display: block;
   height: 40px;
   position: absolute;
@@ -256,7 +256,7 @@ a {
 	-o-transition: all 0.25s ease 0s;
 }
 a:hover, a:focus {
-	color: #e64e04 !important;
+	color: #F5911F !important;
 	text-decoration: none;
 	transition: all 0.25s ease 0s;
 	-moz-transition: all 0.25s ease 0s;
@@ -579,7 +579,7 @@ h6 {
   content: "";
   right: 0;
   top: 0;
-  background: #e64e04;
+  background: #F5911F;
   transition: all 0.3s ease;
 }
 .custom-btns:before {
@@ -597,7 +597,7 @@ h6 {
   content: "";
   left: 0;
   bottom: 0;
-  background: #e64e04;
+  background: #F5911F;
   transition: all 0.3s ease;
 }
 .custom-btns span:before {
@@ -611,10 +611,10 @@ h6 {
 .custom-btns:hover span:before {height: 100%;}
 .custom-btns:hover span:after {width: 100%;}
 .custom-btns.light:before, .custom-btns.light:after {
-	background: #e64e04;
+	background: #F5911F;
 }
 .custom-btns.light span:before, .custom-btns.light span:after {
-	background: #e64e04;
+	background: #F5911F;
 }
 
 /* =====  Icon  =====*/
@@ -626,7 +626,7 @@ h6 {
 
 /* =====  Services  =====*/
 .service:hover h4 {
-    color: #e64e04;
+    color: #F5911F;
 }
 /* =====  Tabs  =====*/
 
@@ -978,7 +978,7 @@ header {
 	position: absolute;
 	visibility: hidden;
 	font: inherit;
-  color: #e64e04;
+  color: #F5911F; /*F5911F*/
 }
 .cd-headline.type i.in {
 	position: relative;
@@ -1197,7 +1197,7 @@ header {
 	margin-right: 10px;
 }
 .blog-item:hover h2 a {
-    color: #e64e04;
+    color: #F5911F;
 }
 #blog-post .owl-nav {
 	position: absolute;
@@ -1276,7 +1276,7 @@ header {
 	margin-right: 30px;
 }
 .client .fa.fa-quote-left {
-	color: #e64e04;
+	color: #F5911F;
 	font-size: 50px;
 }
 .client-designation {
@@ -1371,7 +1371,7 @@ header {
 	filter: grayscale(0%);
 }
 .team-detail:hover .team-title{
-  color: #e64e04;
+  color: #F5911F;
 }
 
 /* =====  End Team css  ===== */
@@ -1380,7 +1380,7 @@ header {
 /* =====  Contact us css  ===== */
 .contact .fa {
 	margin-right: 10px;
-  color: #e64e04;
+  color: #F5911F;
 }
 /* =====  End Contact us css  ===== */
 .map_right #map {

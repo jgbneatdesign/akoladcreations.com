@@ -1,323 +1,54 @@
 ---
 permalink: /
-title: Akolad Creations
+title: Pro Solutions Just For You!
 ---
 
-{% include header.html %}
+{% include partials/head.html %}
 
 <!-- =====  LODER START  ===== -->
 <div class="loder"></div>
 <!-- =====  LODER END  ===== -->
 
 <!-- =====  WRAPPER START  ===== -->
-<div class="wrapper">
-	<!-- =====  HEADER START  ===== -->
-	<header id="header">
-		<div class="header navbar">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header pull-left">
-					<a class="navbar-brand" href="index.html">
-						<img alt="Len.or" src="images/logo.png"> </a>
-				</div>
-				<!-- Collection of nav links, forms, and other content for toggling -->
-				<div id="navbarCollapse" class="navbar-collapse navbar-right">
-					<nav id="menu" class='collapse'>
-						<!-- Navigation Menu -->
-						<ul class="nav">
-							<li class="active">
-								<a href="#home">Home</a>
-							</li>
-							<li>
-								<a href="#service">Services</a>
-							</li>
-							<li>
-								<a href="#portfolio">Portfolio</a>
-							</li>
-							<li>
-								<a href="#about">About</a>
-							</li>
-							<li>
-								<a href="#team">Staff</a>
-							</li>
-							<li>
-								<a href="#client">Testimonials</a>
-							</li>
-							<li>
-								<a href="#contact">Contact</a>
-							</li>
-						</ul>
-						<!--End Navigation Menu -->
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- =====  HEADER END  ===== -->
-	<!-- <div id="colors-switcher">
-		<h2>Colors & Gradients
-			<a href="#">
-				<i class="fa fa-cog fa-spin"></i>
-			</a>
-		</h2>
-		<div>
-			<ul class="colors" id="color1">
-				<li>
-					<a href="#" class="style1"></a>
-				</li>
-				<li>
-					<a href="#" class="style2"></a>
-				</li>
-				<li>
-					<a href="#" class="style3"></a>
-				</li>
-				<li>
-					<a href="#" class="style4"></a>
-				</li>
-				<li>
-					<a href="#" class="style5"></a>
-				</li>
-				<li>
-					<a href="#" class="style6"></a>
-				</li>
-				<li>
-					<a href="#" class="style7"></a>
-				</li>
-				<li>
-					<a href="#" class="style8"></a>
-				</li>
-				<li>
-					<a href="#" class="style9"></a>
-				</li>
-				<li>
-					<a href="#" class="style10"></a>
-				</li>
-				<li>
-					<a href="#" class="style11"></a>
-				</li>
-				<li>
-					<a href="#" class="style12"></a>
-				</li>
-				<li>
-					<a href="#" class="style13"></a>
-				</li>
-				<li>
-					<a href="#" class="style14"></a>
-				</li>
-				<li>
-					<a href="#" class="style15"></a>
-				</li>
-				<li>
-					<a href="#" class="style16"></a>
-				</li>
-				<li>
-					<a href="#" class="style17"></a>
-				</li>
-				<li>
-					<a href="#" class="style18"></a>
-				</li>
-				<li>
-					<a href="#" class="style19"></a>
-				</li>
-				<li>
-					<a href="#" class="style20"></a>
-				</li>
-			</ul>
-		</div>
-	</div> -->
-	<!-- =====  BANNER STRAT  ===== -->
-	{% include home.html %}
-	<!-- =====  BANNER END  ===== -->
+<!-- =====  HEADER START  ===== -->
+{% include header.html %}
+<!-- =====  HEADER END  ===== -->
 
-	<!-- =====  SERVICES STRAT  ===== -->
-	{% include services.html %}
-	<!-- =====  SERVICES END  ===== -->
+<!-- =====  BANNER STRAT  ===== -->
+{% include home-banner.html %}
+<!-- =====  BANNER END  ===== -->
 
-	<!-- =====  WORK WITH US STRAT  ===== -->
-	{% include work-with-us.html %}
-	<!-- =====  WORK WITH US END  ===== -->
+<!-- =====  SERVICES STRAT  ===== -->
+{% include services.html %}
+<!-- =====  SERVICES END  ===== -->
 
-	<!-- =====  WORK START  ===== -->
-	<section id="portfolio" class="ptb_100">
-		<div class="container text-center">
-			<div class="heading-part ">
-				<h2 class="main_title mb_20">Notre Portfolio</h2>
-			</div>
-			<div class="tab-bar mb_30">
-				<ul class="portfolio-filter nav navbar-nav">
-					<li class="active">
-						<a data-filter="*">Tout</a>
-					</li>
-					<li>
-						<a data-filter=".identité visuelle">Identité visuelle</a>
-					</li>
-					<li>
-						<a data-filter=".site Web">Site Web</a>
-					</li>
-					<li>
-						<a data-filter=".impression">Impression</a>
-					</li>
-					<li>
-						<a data-filter=".photographie">Photographie</a>
-					</li>
-				</ul>
-			</div>
-			<div class="grid">
-				<div class="isotope three-col-work ">
-					<div class="grid-item listing-effect illustration webdesign">
-						<a href="images/pf1.jpg" title="Portfolio Title -1">
-							<img src="images/pf1.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Portfolio Title -1</h3>
-								<div class="meta-title">Photography</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect VectorDesign Photography">
-						<a href="images/pf2.jpg" title="Portfolio Title -2">
-							<img src="images/pf2.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Cafe Saporem</h3>
-								<div class="meta-title">Identite visuelle</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect illustration webdesign">
-						<a href="images/pf3.jpg" title="Portfolio Title -3">
-							<img src="images/pf3.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Portfolio Title -3</h3>
-								<div class="meta-title">Photography</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect VectorDesign">
-						<a href="images/pf4.jpg" title="Portfolio Title -4">
-							<img src="images/pf4.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Portfolio Title -4</h3>
-								<div class="meta-title">Photography</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect webdesign VectorDesign Photography">
-						<a href="images/pf5.jpg" title="Portfolio Title -5">
-							<img src="images/pf5.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Brochure Transversal</h3>
-								<div class="meta-title">Impression</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect illustration VectorDesign">
-						<a href="images/pf6.jpg" title="Portfolio Title -6">
-							<img src="images/pf6.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Portfolio Title -6</h3>
-								<div class="meta-title">Photography</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect VectorDesign">
-						<a href="images/pf7.jpg" title="Portfolio Title -7">
-							<img src="images/pf7.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Logo Coeur & Plus</h3>
-								<div class="meta-title">Identite visuelle - Logo</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect webdesign illustration Photography">
-						<a href="images/pf8.jpg" title="Portfolio Title -8">
-							<img src="images/pf8.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Portfolio Title -8</h3>
-								<div class="meta-title">Photography</div>
-							</div>
-						</a>
-					</div>
-					<div class="grid-item listing-effect webdesign">
-						<a href="images/pf9.jpg" title="Portfolio Title -9">
-							<img src="images/pf9.jpg" alt="Len.or">
-							<div class="work-detail">
-								<h3 class="project-title mb_10">Portfolio Title -9</h3>
-								<div class="meta-title">Photography</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<button class="custom-btn custom-btns mt_60" type="button">
-					<span>View More Portfolio</span>
-				</button>
-			</div>
-		</div>
-	</section>
-	<!-- =====  WORK END  ===== -->
+<!-- =====  WORK WITH US STRAT  ===== -->
+{% include work-with-us.html %}
+<!-- =====  WORK WITH US END  ===== -->
 
-	<!-- =====  PROGRESS START  ===== -->
-	<section id="about" class=" ptb_50 bg-color">
-		<div class="container">
-			<!-- Progress Bar  -->
-			<div class="row">
-				<div class="skils-circle">
-					<div class="col-md-2 col-sm-4 skill mtb_50">
-						<div class="first circle">
-							<strong></strong>
-							<span>UX Design</span>
-						</div>
-					</div>
-					<div class="col-md-2 col-sm-4 skill mtb_50">
-						<div class="second circle">
-							<strong></strong>
-							<span>HTML5 + CSS3</span>
-						</div>
-					</div>
-					<div class="col-md-2 col-sm-4 skill mtb_50">
-						<div class="third circle">
-							<strong></strong>
-							<span>JQUERY + JAVASCRIPT</span>
-						</div>
-					</div>
-					<div class="col-md-2 col-sm-4 skill mtb_50">
-						<div class="fourth circle">
-							<strong></strong>
-							<span>BOOTSTRAP</span>
-						</div>
-					</div>
-					<div class="col-md-2 col-sm-4 skill mtb_50">
-						<div class="fifth circle">
-							<strong></strong>
-							<span>LARAVEL</span>
-						</div>
-					</div>
-					<div class="col-md-2 col-sm-4 skill mtb_50">
-						<div class="sixth circle">
-							<strong></strong>
-							<span>PHOTOSHOP</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Progress Bar -->
-		</div>
-	</section>
-	<!-- =====  PROGRESS END  ===== -->
+<!-- =====  WORK START  ===== -->
+{% include portfolio.html %}
+<!-- =====  WORK END  ===== -->
 
-	<!-- =====  ABOUT START  ===== -->
-	{% include about.html %}
-	<!-- =====  ABOUT END  ===== -->
+<!-- =====  PROGRESS START  ===== -->
+{% include skills.html %}
+<!-- =====  PROGRESS END  ===== -->
 
-	<!-- =====  TEAM START  ===== -->
-	{% include team.html %}
-	<!-- =====  TEAM END  ===== -->
+<!-- =====  ABOUT START  ===== -->
+{% include about.html %}
+<!-- =====  ABOUT END  ===== -->
 
-	<!-- =====  CLIENT START  ===== -->
-	{% include testimonials.html %}
-	<!-- =====  CLIENT END  ===== -->
+<!-- =====  TEAM START  ===== -->
+{% include team.html %}
+<!-- =====  TEAM END  ===== -->
 
-	<!-- =====  CONTACT START  ===== -->
-	{% include contact.html %}
-	<!-- =====  CONTACT END  ===== -->
+<!-- =====  CLIENT START  ===== -->
+{% include testimonials.html %}
+<!-- =====  CLIENT END  ===== -->
 
-	<!-- =====  FOOTER START  ===== -->
-	{% include footer.html %}
+<!-- =====  CONTACT START  ===== -->
+{% include contact.html %}
+<!-- =====  CONTACT END  ===== -->
+
+<!-- =====  FOOTER START  ===== -->
+{% include footer.html %}
