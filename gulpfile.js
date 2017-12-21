@@ -1,9 +1,9 @@
-var elixir = require('laravel-elixir');
+const elixir = require('laravel-elixir');
 
 elixir.config.assetsPath = 'assets/source';
 elixir.config.publicPath = 'assets';
 
-elixir(function(mix) {
+elixir((mix) => {
 	mix
 		.less('app.less')
 

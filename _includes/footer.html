@@ -56,39 +56,25 @@
 <!-- =====  WRAPPER END  ===== -->
 
 <!-- =====  SCRIPT START  ===== -->
-<script src="js/jQuery_v3.1.1.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/letters-type.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/circle-progress.js"></script>
-<script src="js/circle-progress-examples.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT3mI0RI16q19Oxv93gSxN0cF0wfxWN6w">   </script>
-<script src="js/map.js"></script>
-<script src="js/parallax.js"></script>
-<script src="js/jquery.easeScroll.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script type="text/javascript">
-	$("html").easeScroll();
-	// Add scrollspy to <body>
-	$('body').scrollspy({ target: '#menu' })
-	$("#menu ul li a[href^='#']").on('click', function (e) {
-		// prevent default anchor click behavior
-		e.preventDefault();
-		// store hash
-		var hash = this.hash;
-		// animate
-		$('html, body').animate({
-			scrollTop: $(hash).offset().top
-		}, 1500, function () {
-			// when done, add hash to url
-			// (default click behaviour)
-			window.location.hash = hash;
-		});
-	});
-</script>
+<script src="/assets/js/jquery.3.1.1.min.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/isotope.pkgd.min.js"></script>
+<script src="/assets/js/letters-type.js"></script>
+<script src="/assets/js/menu.js"></script>
+<script src="/assets/js/custom.js"></script>
+<script src="/assets/js/circle-progress.js"></script>
+<script src="/assets/js/circle-progress-examples.js"></script>
+<script src="/assets/js/parallax.js"></script>
+<script src="/assets/js/jquery.easeScroll.js"></script>
+<script src="/assets/js/jquery.magnific-popup.js"></script>
+
+<!-- ====== Map ====== -->
+<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT3mI0RI16q19Oxv93gSxN0cF0wfxWN6w"></script> -->
+<!-- <script src="/assets/js/map.js"></script> -->
+
+<!-- <script src="/assets/js/vendor.js?{{ site.time }}"></script> -->
+<script src="/assets/js/site.js?{{ site.time }}"></script>
 <!-- =====  SCRIPT END  ===== -->
 </body>
 
