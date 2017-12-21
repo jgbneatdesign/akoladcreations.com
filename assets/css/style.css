@@ -1300,10 +1300,10 @@ header {
 .about-heading span {
 	font-weight: 300;
 }
-.about-text > p::first-letter {
+/* .about-text > p::first-letter {
 	font-size: 18px;
 	color: #000;
-}
+} */
 .about-text {
 	margin: 0 0 40px;
 }
