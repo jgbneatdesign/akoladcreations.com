@@ -1489,12 +1489,12 @@ header {
 }
 /*-----------------------------------*/
 
-@media (max-width:650px) {
+/* @media (max-width:650px) {
 
 .cd-intro p{
 	display: none;
 }
-}
+} */
 /*-----------------------------------*/
 
 @media (max-width:480px) {
