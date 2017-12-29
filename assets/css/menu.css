@@ -71,7 +71,7 @@
 	outline: none;
 }
 #menu ul li:hover a, .header.sticky #menu ul ul > li:hover > a, .header.sticky #menu ul > li:hover > a, #menu > ul > li.active > a {
-	color: #e64e04;
+	color: #e7891e;
 }
 /*#menu > ul > li.nav-has-sub > a {
   padding-right: 25px;
