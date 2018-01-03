@@ -13,25 +13,25 @@
 					<!-- Navigation Menu -->
 					<ul class="nav">
 						<li class="active">
-							<a href="#home">Home</a>
+							<a href="{% if page.url == '/services' %}/{% endif %}#home">Home</a>
 						</li>
 						<li>
-							<a href="#service">Services</a>
+							<a href="{% if page.url == '/services' %}/{% endif %}#service">Services</a>
 						</li>
 						<li>
-							<a href="#portfolio">Portfolio</a>
+							<a href="{% if page.url == '/services' %}/{% endif %}#portfolio">Portfolio</a>
 						</li>
 						<li>
-							<a href="#about">About</a>
+							<a href="{% if page.url == '/services' %}/{% endif %}#about">About</a>
 						</li>
 						<li>
-							<a href="#team">Staff</a>
+							<a href="{% if page.url == '/services' %}/{% endif %}#team">Staff</a>
 						</li>
 						<li>
-							<a href="#client">Testimonials</a>
+							<a href="{% if page.url == '/services' %}/{% endif %}#client">Testimonials</a>
 						</li>
 						<li>
-							<a href="#contact">Contact</a>
+							<a href="{% if page.url == '/services' %}/{% endif %}#contact">Contact</a>
 						</li>
 					</ul>
 					<!--End Navigation Menu -->

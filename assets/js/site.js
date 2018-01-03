@@ -16,4 +16,13 @@ $(function() {
 			window.location.hash = hash;
 		});
 	});
+
+	$("#contact_form_netlify").submit(function(e) {
+		e.preventDefault();
+	  
+		var $form = $(this);
+		$.post($form.attr("action"), $form.serialize()).then(function() {
+			$form.find("#contact_results").text("Votre message a été envoyé avec succès!");
+		});
+	});
 });

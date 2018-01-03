@@ -624,6 +624,11 @@ h6 {
 	font-size: 50px;
 }
 
+.icon-top i:hover, .icon-right i:hover, .icon-left i:hover {
+    color: #F5911F;
+	font-size: 50px;
+}
+
 /* =====  Services  =====*/
 .service:hover h4 {
     color: #F5911F;
