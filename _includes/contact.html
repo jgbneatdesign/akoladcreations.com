@@ -41,7 +41,7 @@
 					<form id="contact_form_netlify" method="post" action="/thank-you" netlify>
 						<input class="full-with-form " type="text" name="name" placeholder="Full Name" data-required="true" />
 						<input class="full-with-form  mt_30" type="email" name="email" placeholder="Your E-mail" data-required="true" />
-						<input class="full-with-form  mt_30" type="text" name="phone1" placeholder="Your Phone Number" maxlength="15" data-required="true"
+						<input class="full-with-form  mt_30" type="number" name="phone1" placeholder="Your Phone Number" maxlength="15" data-required="true"
 						/>
 						<input class="full-with-form  mt_30" type="text" name="subject" placeholder="The Subject" data-required="true">
 						<textarea class="full-with-form  mt_30" name="message" placeholder="Your Message" data-required="true"></textarea>
@@ -49,7 +49,7 @@
 							<span>Send Message</span>
 						</button>
 					</form>
-					<div id="contact_results"></div>
+					<div id="contact_results" class="text-success"></div>
 				</div>
 
 				<!-- END Contact FORM -->

@@ -22,7 +22,7 @@ $(function() {
 	  
 		var $form = $(this);
 		$.post($form.attr("action"), $form.serialize()).then(function() {
-			$form.find("#contact_results").text("Votre message a été envoyé avec succès!");
+			$form.slideUp().next().text("Votre message a été envoyé avec succès!");
 		});
 	});
 });
