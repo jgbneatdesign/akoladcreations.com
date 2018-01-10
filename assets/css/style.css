@@ -8,14 +8,14 @@
 ===== BASIC STYLE =====
   + General
   + Color Swicher
-  + Parallax 
-  + Typography   
-  + Spacing    
+  + Parallax
+  + Typography
+  + Spacing
   + Button
   + Services
-         
-      
-===== HEADER ===== 
+
+
+===== HEADER =====
   + Header
   + Navbar
 
@@ -27,7 +27,7 @@
   + About Us Page
   + Team
   + Contact Us
-  
+
 
 ===== FOOTER =====
 
@@ -81,14 +81,15 @@ br {
 	font-size: 0;
 	line-height: 0;
 }
-hr {
+/*hr {
 	margin-bottom: 0px;
 	margin-top: 0px;
 	border-top: 1px solid #000;
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
-}
+}*/
+
 .shop-detail hr {
 	border-top: 1px solid #ccc;
 }
@@ -1369,10 +1370,10 @@ header {
 .social li a i {
 	margin: 12px;
 }
-.team-detail .team-item-img {
+.team-detail .team-item-img, .tech-logo {
 	filter: grayscale(100%);
 }
-.team-detail:hover .team-item-img {
+.team-detail:hover .team-item-img, .tech-logo:hover {
 	filter: grayscale(0%);
 }
 .team-detail:hover .team-title{
@@ -1398,7 +1399,7 @@ header {
 }
 /* =====  FOOTER CSS START=====*/
 
- 
+
 .footer {
 	text-align: center;
 }
@@ -1435,11 +1436,11 @@ header {
 	color: #fff;
 }
 /* =====  FOOTER CSS END=====*/
- 
- 
- 
- 
-/* =====  RESPONSIVE CSS START  =====*/ 
+
+
+
+
+/* =====  RESPONSIVE CSS START  =====*/
 
 @media (min-width: 1200px) {
 .container {
@@ -1466,11 +1467,11 @@ header {
 }
 }
 /*-----------------------------------*/
-	
+
 @media (min-width: 768px) and (max-width: 991px) {
 }
 /*-----------------------------------*/
-	
+
 @media (max-width: 767px) {
 .banner_bg{
 	overflow: hidden;
@@ -1514,5 +1515,5 @@ hr {
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
-    padding: 0; 
+    padding: 0;
 }
