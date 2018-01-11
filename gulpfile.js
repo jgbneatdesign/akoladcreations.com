@@ -5,7 +5,7 @@ elixir.config.publicPath = 'assets';
 
 elixir((mix) => {
 	mix
-		.less('app.less')
+		// .less('app.less')
 
 		.scripts('site.js')
 
