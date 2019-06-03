@@ -109,7 +109,7 @@ ul {
 	color: #fff !important;
 }
 .red{
-  color: #F5911F !important;
+  color: #ED3326 !important;
 }
 .dark {
 	color: #000 !important;
@@ -138,7 +138,7 @@ ul {
   text-transform: capitalize;
 }
 #colors-switcher h2 a {
-  background-color: #F5911F;
+  background-color: #ED3326;
   display: block;
   height: 40px;
   position: absolute;
@@ -257,7 +257,7 @@ a {
 	-o-transition: all 0.25s ease 0s;
 }
 a:hover, a:focus {
-	color: #F5911F !important;
+	color: #ED3326 !important;
 	text-decoration: none;
 	transition: all 0.25s ease 0s;
 	-moz-transition: all 0.25s ease 0s;
@@ -580,7 +580,7 @@ h6 {
   content: "";
   right: 0;
   top: 0;
-  background: #F5911F;
+  background: #ED3326;
   transition: all 0.3s ease;
 }
 .custom-btns:before {
@@ -598,7 +598,7 @@ h6 {
   content: "";
   left: 0;
   bottom: 0;
-  background: #F5911F;
+  background: #ED3326;
   transition: all 0.3s ease;
 }
 .custom-btns span:before {
@@ -612,10 +612,10 @@ h6 {
 .custom-btns:hover span:before {height: 100%;}
 .custom-btns:hover span:after {width: 100%;}
 .custom-btns.light:before, .custom-btns.light:after {
-	background: #F5911F;
+	background: #ED3326;
 }
 .custom-btns.light span:before, .custom-btns.light span:after {
-	background: #F5911F;
+	background: #ED3326;
 }
 
 /* =====  Icon  =====*/
@@ -626,13 +626,13 @@ h6 {
 }
 
 .icon-top i:hover, .icon-right i:hover, .icon-left i:hover {
-    color: #F5911F;
+    color: #ED3326;
 	font-size: 50px;
 }
 
 /* =====  Services  =====*/
 .service:hover h4 {
-    color: #F5911F;
+    color: #ED3326;
 }
 /* =====  Tabs  =====*/
 
@@ -984,7 +984,7 @@ header {
 	position: absolute;
 	visibility: hidden;
 	font: inherit;
-  color: #F5911F; /*F5911F*/
+  color: #ED3326; /*ED3326*/
 }
 .cd-headline.type i.in {
 	position: relative;
@@ -1203,7 +1203,7 @@ header {
 	margin-right: 10px;
 }
 .blog-item:hover h2 a {
-    color: #F5911F;
+    color: #ED3326;
 }
 #blog-post .owl-nav {
 	position: absolute;
@@ -1282,7 +1282,7 @@ header {
 	margin-right: 30px;
 }
 .client .fa.fa-quote-left {
-	color: #F5911F;
+	color: #ED3326;
 	font-size: 50px;
 }
 .client-designation {
@@ -1377,7 +1377,7 @@ header {
 	filter: grayscale(0%);
 }
 .team-detail:hover .team-title{
-  color: #F5911F;
+  color: #ED3326;
 }
 
 /* =====  End Team css  ===== */
@@ -1386,7 +1386,7 @@ header {
 /* =====  Contact us css  ===== */
 .contact .fa {
 	margin-right: 10px;
-  color: #F5911F;
+  color: #ED3326;
 }
 /* =====  End Contact us css  ===== */
 .map_right #map {
